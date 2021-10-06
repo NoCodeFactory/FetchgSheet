@@ -9,7 +9,7 @@ let requestOptions = {
 let datas;
 
 
-fetch('', requestOptions)
+fetch('https://v1.nocodeapi.com/yes/google_sheets/lWBYhRVxlAyErBJO?tabId=test1', requestOptions)
   .then(response => response.text())
   .then(result => {
     let parsedData = JSON.parse(result).data;
